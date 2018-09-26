@@ -1,0 +1,33 @@
+/*
+  Imagen1: https://manzdev.github.io/eoi-fullstack/css/stewie.png
+  Imagen2: https://manzdev.github.io/eoi-fullstack/css/stewie-seal.png
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+.aviso {
+  background-image: url(https://i.imgsafe.org/bd/bd0dbb356a.png);
+  font-family: 'Roboto', sans-serif;
+  margin:auto;
+  width:600px;
+  padding: 50px;
+}
+
+li {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+input {
+  margin: 2px;
+  box-shadow: 8px 9px 21px -9px rgba(0,0,0,0.75);
+}
+
+h1, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+strong {
+  color: red;
+}
